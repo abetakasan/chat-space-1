@@ -68,3 +68,6 @@ gem 'mini_magick'
 group :test, :development do
   gem 'capybara'
 end
+group :production do
+  gem 'unicorn'
+end

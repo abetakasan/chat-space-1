@@ -1,6 +1,6 @@
 # config valid for current version and patch releases of Capistrano
 # config valid only for current version of Capistrano
-lock '<Capistranoのバージョン>'
+lock 'capistrano (3.11.0)'
 
 set :application, chat-space-1
 set :repo_url,  'git@github.com:abetakasan/chat-space-1.git'
